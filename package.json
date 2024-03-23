@@ -1,0 +1,43 @@
+{
+  "name": "aliquidrecusandae",
+  "version": "1.0.0",
+  "description": "Look up an Ethereum function signature by the 4 bytes of its hash",
+  "main": "index.js",
+  "bin": {
+    "4byte": "bin/4byte"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "lint": "standard --fix *.js test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReneeRussel/aliquidrecusandae.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ReneeRussel/aliquidrecusandae.git/issues"
+  },
+  "homepage": "https://github.com/ReneeRussel/aliquidrecusandae.git",
+  "author": "LeilaniBrown",
+  "license": "MIT",
+  "url": "https://github.com/shanefontaine/4byte/blob/master/LICENSE",
+  "dependencies": {
+    "meow": "^5.0.0",
+    "node-fetch": "2.6.1"
+  },
+  "keywords": [
+    "nemo",
+    "eth",
+    "blockchain",
+    "unde",
+    "laboriosam",
+    "signature",
+    "eum",
+    "keccack",
+    "quibusdam"
+  ],
+  "devDependencies": {
+    "standard": "^12.0.1",
+    "tape": "^5.2.2"
+  }
+}
